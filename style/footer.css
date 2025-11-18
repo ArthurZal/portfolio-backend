@@ -1,0 +1,21 @@
+footer {
+    min-width: 375px;
+    background-color: #363D49;
+    padding: 2rem 1rem;
+    border-top: 1px solid #afafaf;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .social-links {
+        padding-top: 1rem;
+        padding-bottom: 0;
+        gap: 1rem;
+    }
+
+    span {
+        font: 400 .875rem var(--font-family);
+        color: var(--content-primary);
+    };
+}
